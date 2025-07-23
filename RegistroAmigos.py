@@ -84,6 +84,7 @@ colorFondo = "#ffe5e5"
 ventana = tk.Tk()
 ventana.title("Gestor de Amigos")
 ventana.geometry("400x350")
+ventana.iconbitmap("Contact.ico")
 
 pestanas = ttk.Notebook(ventana)
 
